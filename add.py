@@ -6,7 +6,7 @@ import os
 import sys
 
 dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.append("/usr/local/lib/python3.6/site-packages")
+sys.path.append("/Library/Python/2.7/site-packages")
 
 
 def test_add_address():
