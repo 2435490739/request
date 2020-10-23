@@ -2,6 +2,12 @@
 import requests
 import json
 
+import os
+import sys
+
+dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append("/usr/local/lib/python3.6/site-packages")
+
 
 def test_add_address():
     host = 'http://luxury-mall-dev.ssluxury.cn'
